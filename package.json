@@ -1,11 +1,11 @@
 {
     "name": "switch-lan-play",
-    "version": "1.0.0 modify",
+    "version": "1.0.0",
     "description": "",
     "main": "server.js",
-    "serverInfo":{
+    "serverInfo": {
         "notice": "测试一下服主公告~",
-        "userMax":50
+        "userMax": 50
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,18 +18,13 @@
     "author": "spacemeowx2",
     "license": "MIT",
     "devDependencies": {
-        "@types/koa": "^2.0.46",
-        "@types/koa-router": "^7.0.32",
-        "@types/koa2-cors": "^2.0.1",
         "@types/node": "^8.10.36",
-        "typescript": "^3.0.3"
+        "typescript": "^3.0.3",
+        "grunt": "latest"
     },
     "dependencies": {
         "@types/axios": "^0.14.0",
         "axios": "^0.19.0",
-        "koa": "^2.13.1",
-        "koa-router": "^7.4.0",
-        "koa2-cors": "^2.0.6",
         "ws": "^7.4.5"
     }
 }
