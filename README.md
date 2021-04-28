@@ -5,7 +5,7 @@ lan-play-server1.0修改版
 
 ### Docker
 ```
- 
+ docker run -d -p 11451:11451/udp -p 11451:11451/tcp gpuer/lan-play-server
 ```
 ### nodejs
 ```
