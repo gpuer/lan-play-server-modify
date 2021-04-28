@@ -1,6 +1,6 @@
 {
     "name": "switch-lan-play",
-    "version": "1.0.0-alpha.2",
+    "version": "1.0.0 modify",
     "description": "",
     "main": "server.js",
     "serverInfo":{
@@ -9,10 +9,11 @@
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "ts-node src/main.ts",
+        "start1": "ts-node src/main.ts",
+        "start": "node dist/main.js",
         "dev": "tsc -w -p .",
         "build": "tsc -p .",
-        "server": "ts-node dist/main.js"
+        "server": "node dist/main.js"
     },
     "author": "spacemeowx2",
     "license": "MIT",
