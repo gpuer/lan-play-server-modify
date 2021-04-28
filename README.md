@@ -5,7 +5,7 @@ lan-play-server1.0修改版
 
 ### Docker
 ```
- docker push gpuer/lan-play-server-modify
+ 
 ```
 ### nodejs
 ```
