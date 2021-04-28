@@ -2,6 +2,12 @@
 lan-play-server1.0修改版
 该版本为spacemeowx2（空格）的lan-play-server 1.0.0-alpha.2的修改版。
 ## 1.启动方式
+
+### Docker
+```
+ docker push gpuer/lan-play-server-modify
+```
+### nodejs
 ```
   git clone https://github.com/gpuer/lan-play-server-modify.git
   cd switch-lan-play/server
